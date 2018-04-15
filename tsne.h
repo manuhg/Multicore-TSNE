@@ -19,8 +19,10 @@
 #include <omp.h>
 #endif
 
+#ifndef TSNE_SRC
 #include <bhtsne/splittree.h>
 #include <bhtsne/vptree.h>
+#endif
 
 #ifndef TSNE_H
 #define TSNE_H

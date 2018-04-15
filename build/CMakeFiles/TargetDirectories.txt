@@ -1,3 +1,0 @@
-/home/gk1000/dev/libfsort/mbhtsne/build/CMakeFiles/rebuild_cache.dir
-/home/gk1000/dev/libfsort/mbhtsne/build/CMakeFiles/bhtsne.dir
-/home/gk1000/dev/libfsort/mbhtsne/build/CMakeFiles/edit_cache.dir

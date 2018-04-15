@@ -58,7 +58,7 @@ public:
     double x(int d) const { return _x[d]; }
 };
 
-
+#ifdef TSNE_SRC
 double euclidean_distance_squared(const DataPoint &t1, const DataPoint &t2) {
     double dd = .0;
     for (int d = 0; d < t1.dimensionality(); d++) {
@@ -239,5 +239,5 @@ private:
         }
     }
 };
-
+#endif
 #endif

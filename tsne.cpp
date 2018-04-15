@@ -20,6 +20,7 @@
 #include <omp.h>
 #endif
 
+#define TSNE_SRC
 // #include "quadtree.h"
 #include "splittree.h"
 #include "vptree.h"

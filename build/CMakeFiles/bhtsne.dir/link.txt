@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbhtsne.a  CMakeFiles/bhtsne.dir/splittree.cpp.o CMakeFiles/bhtsne.dir/tsne.cpp.o
-/usr/bin/ranlib libbhtsne.a
