@@ -4,8 +4,8 @@ if [[ $# -gt 0 ]]; then
     [ -d build ] && rm -rf build
     mkdir build  && cd build
     cmake .. && make -j8
-    cp libbhtsne.a ../../lib/
-    cp libbhtsne.a ../
+    cp libbhtsne.* ../../lib/
+    cp libbhtsne.* ../
     cd ..
     incl_dir=../include/bhtsne
     rm -rf $incl_dir
@@ -13,6 +13,6 @@ if [[ $# -gt 0 ]]; then
     cp *.h $incl_dir/
 else
     cd build
-    make && cp -v libbhtsne.a ../../lib/static/ &&cp -v libbhtsne.a ../../lib/ && sudo cp -v libbhtsne.a /usr/lib/
+    make && cp -v libbhtsne.* ../../lib/static/ &&cp -v libbhtsne.* ../../lib/ && sudo cp -v libbhtsne.* /usr/lib/
     cd ..
 fi

@@ -18,4 +18,4 @@ ENDIF()
 
 FILE(GLOB src *.cpp)
 
-ADD_LIBRARY(bhtsne STATIC ${src})
+ADD_LIBRARY(bhtsne MODULE ${src})
